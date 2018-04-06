@@ -1,0 +1,17 @@
+# no .a files
+*.[oa]
+
+# emacs backup copies
+*~
+.#*
+\#*
+
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+*.png
+
+# ignore all files in the build/ directory
+built_objs
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*
